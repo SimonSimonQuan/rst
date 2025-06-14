@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rst website</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="scripts.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <h1>put a title here</h1>
+    <p>put a subtitle here ig</p>
+  </header>
+
+  <nav>
+<a href="index.html">main page</a>
+  </nav>
+
+  <main>
+    <h2>Welcome!</h2>
+    <p>This website will tell you about different stuff we learned in class</p>
+    <div class="highlight">
+      <strong>Part eight: arrays</strong>
+    </div>
+    <p>Arrays are ordered lists that hold multiple values in a single variable. They're like a shelf where each slot has a number (its index), and you can store or retrieve items from those slots. It also starts at 0 and counts up, so the first item has the index 0, the second has 1, etc.</p>
+    
+    <p>here is how you make an array:</p>
+
+     <div class="highlight">
+        let colours = ["blue", "orange", "yellow"];
+    </div>
+    <br>
+    <p>and here is how you can add something to it: </p>
+    <div class="highlight">
+    colours.push("green"); 
+    </div>
+    <br>
+    <p>now we can look up a specific colour by labeling it's index in the list. We just added green so it would be fourth, where the index is 3</p>
+    <div class="highlight">
+        console.log(colours[3]);
+        <br>>> green  
+    </div>
+    <br>
+    <p>here is a list you can add stuff too using arrays</p>
+    <input type="text" id="choreInput" class="input-box" placeholder="Enter anything" />
+<button onclick="addChore()">Add something</button>
+<button onclick="chores.length = 0, updateList()">clear</button>
+
+<ul id="choreList"></ul>
+    <button onclick="location.href='index.html'">back to beginning</button>
+
+  </main>
+
+
+
+</body>
+
+</html>

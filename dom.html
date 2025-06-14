@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rst website</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="scripts.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <h1>put a title here</h1>
+    <p>put a subtitle here ig</p>
+  </header>
+
+  <nav>
+<a href="index.html">main page</a>
+  </nav>
+
+  <main>
+    <h2>Welcome!</h2>
+    <p>This website will tell you about different stuff we learned in class</p>
+    <div class="highlight">
+      <strong>Part seven: DOM manipulation</strong>
+    </div>
+    <p>DOM manipulation means changing the structure, style, or content of a webpage while it’s running, using code. The DOM (Document Object Model) represents HTML elements as objects, so you can select them and do things like change text, update styles, or add/remove elements.</p>
+  
+    <br>
+    <div class="highlight">
+        
+      <b><p id="message">using DOM manipulation u can change this message to whatever you want</p></b>
+      <br>function changeMessage() {
+  <br>&nbsp;const msg = document.getElementById('message');
+  <br>&nbsp;msg.textContent = prompt("Enter your message");
+<br>}
+    </div>
+    <br>
+<button onclick="changeMessage()">Change the message</button>
+
+<br>
+<br>
+
+    <button onclick="location.href='arrays.html'">click me</button>
+
+  </main>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rst website</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="scripts.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <h1>put a title here</h1>
+    <p>put a subtitle here ig</p>
+  </header>
+
+  <nav>
+<a href="index.html">main page</a>
+  </nav>
+
+  <main>
+    <h2>Welcome!</h2>
+    <p>This website will tell you about different stuff we learned in class</p>
+    <div class="highlight">
+      <strong>Part six: conditionals</strong>
+    </div>
+    <p>Conditional statements does something depending if a statement is true or false. First, there is the if statement, which checks if something is true and executes code if it is. Then the if else statement comes in, where if the first isn't true, it checks for another thing. Then there is the else statement, which executes if all the others fail.</p>
+   <br>
+   <p>here is the general structure</p>
+   <div class="highlight">
+     if (something is something) {
+<br>&nbsp;//do this
+<br>} else if (something is something else) {
+<br>&nbsp;//do that
+<br>} else {
+<br>&nbsp;//do this
+<br>}
+    </div>
+    <br>
+    <p>here is a light switch, epilepsy warning</p>
+    <br>
+    <div class="highlight">
+    var lights = "on"
+<br>function toggleLight() {
+<br>&nbsp;if (lights == "on") {
+<br>&nbsp;&nbsp;lights = "off"
+<br>&nbsp;&nbsp;document.querySelector("body").style.filter = "brightness(0.3)"
+<br>&nbsp;&nbsp;document.querySelector("body").style.backgroundColor = "#353535"
+<br>&nbsp;} else {
+<br>&nbsp;&nbsp;lights = "on"
+<br>&nbsp;&nbsp;document.querySelector("body").style.filter = "brightness(1)"
+<br>&nbsp;&nbsp;document.querySelector("body").style.backgroundColor = "#fafafa"
+<br>&nbsp;}
+<br>}
+    </div>
+    <br>
+    <button onclick="toggleLight()">Light switch</button>
+    <br>
+    <br>
+    <button onclick="location.href='dom.html'">click me</button>
+
+  </main>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rst website</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="scripts.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <h1>put a title here</h1>
+    <p>put a subtitle here ig</p>
+  </header>
+
+  <nav>
+<a href="index.html">main page</a>
+  </nav>
+
+  <main>
+    <h2>Welcome!</h2>
+    <p>This website will tell you about different stuff we learned in class</p>
+    <div class="highlight">
+      <strong>Part three: css</strong>
+    </div>
+    <p>CSS, which means Cascading Style Sheets is the language used to style and design the layout of a webpage. It controls things like colors, fonts, spacing, and layouts. Without CSS, websites would just be plain text and boxes.
+</p>
+<p>here is some of the css used in this website, specifically the part that makes the highlighted boxes</p>
+<div class="highlight">
+      .highlight {
+  <br>&nbsp;&nbsp;&nbsp;&nbsp;background-color: #eaf6ff; <!--idk how to make tabs so i just put four spaces<>-->
+  <br>&nbsp;&nbsp;&nbsp;&nbsp;border-left: 6px solid #005f99;
+ <br> &nbsp;&nbsp;&nbsp;&nbsp;padding: 1rem;
+ <br> &nbsp;&nbsp;&nbsp;&nbsp;margin-top: 1rem;
+<br>}
+<br>
+    </div>
+<p>it adds a background, a dark border on the left, and some padding around the edges.</p>
+<p>for an example here is css used to make a fancy button</p>
+<div class="highlight">
+      #fancy-button {
+  <br>background: linear-gradient(135deg, #005f99, #ffa500);
+  <br>color: white;
+ <br> font-size: 1.1rem;
+  <br>font-weight: bold;
+ <br> padding: 0.75rem 2rem;
+  <br>border: none;
+  <br>border-radius: 50px;
+  <br>box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+ <br> cursor: pointer;
+  <br>transition: all 0.4s ease;
+  <br>letter-spacing: 1px;
+ <br> position: relative;
+  <br>overflow: hidden;
+<br>}
+    </div>
+    <br>
+    <br>
+     <button onclick="location.href='functions.html'" id="fancy-button">click me</button>
+
+    
+  </main>
+
+
+
+</body>
+
+</html>

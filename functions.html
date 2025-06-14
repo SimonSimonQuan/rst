@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rst website</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="scripts.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <h1>put a title here</h1>
+    <p>put a subtitle here ig</p>
+  </header>
+
+  <nav>
+<a href="index.html">main page</a>
+  </nav>
+
+  <main>
+    <h2>Welcome!</h2>
+    <p>This website will tell you about different stuff we learned in class</p>
+    <div class="highlight">
+      <strong>Part four: functions</strong>
+    </div>
+    <p>Functions are reusable blocks of code that perform a specific task. You define a function once, and then you can call it whenever you need that task done. You can also insert extra inputs called parameters.
+</p>
+<p>Here's how you call a function, where x and y are the parameters. It multiplues x and y (make sure u put real numbers in)</p>
+<div class="highlight">
+    function multiply(x,y) {
+<br>&nbsp; alert(x * y);
+<br>}
+    </div>
+  <br><br>
+      <button onclick="multiply(prompt('enter x'), prompt('enter y'))">run the function</button>
+  <br>
+  <p>this is a function to go to the next page, click the button to run the function</p>
+  <div class="highlight">
+    function nextPage(section) {
+<br>&nbsp; location.href = section + ".html"
+<br>}
+    </div>
+    <br>
+    <br>
+    <button onclick="location.href='looping.html'">nextPage("looping")</button>
+
+  </main>
+
+
+
+</body>
+
+</html>
