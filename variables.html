@@ -47,6 +47,16 @@
     <p>the following text box controls a variable which when set to true, will show a button for the next page. type in true to change the variable</p>
     <input type="text" class="input-box" id="variable-box">
     <button id="textbox-variable-enter" onclick="buttonAppear()">Enter</button>
+    <div class="highlight">
+      function buttonAppear() {
+   <br> &nbsp;let textt = document.querySelector("#variable-box").value // this is the variable
+    <br>&nbsp;if (textt == "true"){ //checks if the variable is true
+    <br>    &nbsp;&nbsp;document.querySelector("#variable-button").style.visibility = "visible"
+   <br> &nbsp;}
+   <br> }
+
+
+    </div>
     <br>
     <br>
      <button onclick="location.href='css.html'" id="variable-button">click me</button>
